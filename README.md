@@ -1,2 +1,14 @@
-# nginx-reverse-proxy-template
-Production-ready NGINX Reverse Proxy template using Docker.  Designed to demonstrate traffic flow, security best practices, and real-world proxy architecture.
+# NGINX Reverse Proxy Template
+
+Production-ready NGINX Reverse Proxy using Docker.
+
+## Features
+- NGINX as Reverse Proxy
+- Clean traffic routing
+- Security headers
+- Dockerized backend
+- Easy to extend (SSL, load balancing)
+
+## Run
+```bash
+docker-compose up --build
